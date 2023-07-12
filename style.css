@@ -1,0 +1,403 @@
+/* Global CSS */
+*{
+  padding: 0;
+  margin: 0;
+}
+
+body{
+  font-family: 'Lato', sans-serif;
+}
+
+
+/* Start Header Top */
+
+#header-top{
+  width: 100%;
+  height: 620px;
+  background: rgba(229, 84, 115, 0.10);
+  display: flex;
+  justify-content: space-around;
+}
+
+.header-title{
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  margin-top: 80px;
+  margin-left: 140px;
+}
+
+.header-title h2{
+  color: #272727;
+  font-size: 78px;
+  font-weight: 800;
+  width: 700px;
+  margin-bottom: 15px;
+}
+
+
+.header-title p{
+  color: rgba(39, 39, 39, 0.60);
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+  margin-top: 20px;
+  margin-bottom: 45px;
+}
+
+.shop a{
+  text-decoration: none;
+  color: #FFF;
+  font-size: 20px;
+  font-weight: 700;
+  border-radius: 8px;
+  background: #E55473;
+  padding: 12px 20px;
+  border: 2px solid #E55473;
+}
+
+.shop a:hover{
+  background-color: transparent;
+  color: black;
+}
+
+.header-img{
+  width: 50%;
+}
+
+.header-img img{
+  width: 450px;
+  margin-top: 50px;
+  margin-left: 50px;
+  margin-bottom: 0;
+}
+
+/* End Header Top */
+
+
+/* Start Our Featured Flowers Section */
+
+.our-featured{
+  width: 100%;
+  height: 650px;
+}
+
+.our-featured-img{
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 200px;
+  justify-content: space-around;
+  margin-top: 110px;
+}
+
+.our-featured-img img{
+  height: 200px;
+  padding: 45px 30px;
+}
+
+.img1{
+  border-radius: 300px 300px 0px 0px;
+  background: rgba(167, 33, 98, 0.15);
+}
+
+.img2{
+  border-radius: 300px 300px 0px 0px;
+  background: rgba(5, 151, 160, 0.15);
+}
+
+.img3{
+  border-radius: 300px 300px 0px 0px;
+  background: rgba(71, 125, 17, 0.15);
+}
+
+.our-featured-img-text{
+  display: flex;
+  align-items: center;
+  width: 100%;
+  justify-content: space-around;
+  color: #272727;
+  text-align: center;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 35px;
+  margin-top: 50px;
+  text-decoration-line: underline;
+}
+
+/* End Our Featured Flowers Section */
+
+
+/* Start Hot Deal */
+#hot-deal{
+  width: 100%;
+  height: 400px;
+  background: rgba(229, 84, 115, 0.05);
+  display: flex;
+  align-items: center;
+
+}
+
+.hot-deal-title{
+  width: 60%;
+  height: 300px;
+  margin-top: 180px;
+  margin-left: 200px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.hot-deal-title h2{
+  color: #272727;
+  font-size: 35px;
+  font-weight: 800;
+  padding-bottom: 20px;
+}
+
+.hot-deal-title h2 span{
+  color: #E55473;
+}
+.hot-deal-title p{
+  color: rgba(39, 39, 39, 0.60);
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 30px;
+  width: 80%;
+}
+
+.hot-deal-title a{
+  text-decoration: none;
+  padding: 12px 25px;
+  align-items: flex-start;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 700;
+  border-radius: 8px;
+  background: #E55473;
+  margin-top: 20px;
+  border: 2px solid #E55473;
+}
+
+.hot-deal-title a:hover{
+  color: black;
+  background-color: transparent;
+}
+
+.hot-deal-img{
+  width: 40%;
+}
+
+.hot-deal-img img{
+  width: 160px;
+}
+
+/* End Hot Deal */
+
+
+/* Start Happy Clients */
+
+#our-clients{
+  background-image: linear-gradient(#a17f7fa2,#000000a2),url(img/slider2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.container{
+  width: 93%;
+  height: 300px;
+  margin: auto;
+}
+
+.our-clients-wrapper{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.our-clients-feedback{
+  flex-basis: 22%;
+  background-color: #ee6482;
+  padding: 40px 0;
+  text-align: center;
+  color: #fff;
+  margin-top: 70px;
+}
+
+.our-clients-feedback h2{
+  font-size: 50px;
+}
+
+.our-clients-feedback span{
+  font-weight: 700;
+}
+
+/* End Happy Client */
+
+
+/* Start Instagram Section*/
+
+#instagram{
+  width: 100%;
+  height: 600px;
+  display: flex;
+  flex-direction: column;
+}
+
+.section-instagram{
+  margin-top: 80px;
+  position: relative;
+  width: 100%;
+  height: 150px;
+}
+
+.section-instagram h2{
+  color: #272727;
+  text-align: center;
+  font-size: 40px;
+  font-weight: 800;
+  margin-bottom: 10px;
+}
+
+.section-instagram p{
+  color: rgba(39, 39, 39, 0.60);
+  text-align: center;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+  margin-left: 380px;
+  margin-bottom: 15px;
+  width: 42%;
+  position: absolute;
+}
+
+.img-galary{
+  margin: 130px 130px;
+}
+
+.img-galary img{
+  height: 150px;
+  margin-right: 10px;
+}
+
+.img-galary:last-child img{
+  margin-right: 10px;
+}
+
+/* End Instagram Section*/
+
+
+/* Start Get The Latest Deals */
+
+.get-the-latest-deals-section{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  height: 350px;
+  margin-top: 10px;
+  margin-bottom: 30px;
+}
+
+.get-the-latest-deals{
+  padding: 50px 100px;
+  background-image: url(./img/Rectangle\ 9.png);
+}
+
+.get-the-latest-deals h2{
+  color: #272727;
+  text-align: center;
+  font-size: 40px;
+  font-weight: 800;
+  align-items: center;
+  margin-top: 40px;
+  margin-bottom: 10px;
+}
+
+.get-the-latest-deals{
+  color: rgba(39, 39, 39, 0.60);
+  text-align: center;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+  margin: 250px;
+}
+
+#subscribe-box{
+  border-radius: 8px;
+  background: #FFF;
+  color: black;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 400;
+  border: none;
+  padding: 12px 75px;
+}
+
+#subscribe-btn{
+  color: #FFF;
+  font-size: 20px;
+  font-weight: 700;
+  border-radius: 8px;
+  background: #E55473;
+  width: 120px;
+  height: 40px;
+  margin-left: 10px;
+  border: 2px solid #E55473;
+  cursor: pointer;
+}
+
+#subscribe-btn:hover{
+  background-color: transparent;
+  color: black;
+}
+
+/* End Get The Latest Deals */
+
+/* Start Footer */
+
+.footer-menu{
+  width: 100%;
+  height: 300px;
+  background: #111010;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 200px;
+}
+
+.footer-heading h2{
+  color: #FFFFFF;
+  font-size: 48px;
+  font-weight: 800;
+  margin-top: 70px;
+  margin-bottom: 20px;
+}
+
+.footer-heading h2 span{
+  color: #E55473;
+}
+
+.footer-dec{
+  color: rgba(255, 255, 255, 0.90);
+  text-align: center;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 25px;
+  width: 500px;
+  margin: 0 auto;
+}
+
+.copy-text{
+  color: rgba(255, 255, 255, 0.40);
+  text-align: center;
+  font-size: 16px;
+  font-weight: 400;
+  margin-top: 15px;
+}
+
+/* End Footer */
